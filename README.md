@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 - 🧑🏼‍🎓 Master student at [ENS Paris](https://www.ens.psl.eu/en) and [MVA](https://www.master-mva.com/)
 - 📈 Interested in machine Learning and applied mathematics
 - 📷 Interested in computer vision
--  **λ**.    Interested in functional programming
+-  **λ** &nbsp; &nbsp;Interested in functional programming
 - 🎲 Chess & other strategy games
 
 #### Language and tools
