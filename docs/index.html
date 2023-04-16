@@ -70,6 +70,10 @@
       </nav>
     </header>
     <main>
+      <h1>
+        <img style="height: 1.2em" src="data/favicon.ico" alt="Whale icon" />
+        Home page of Gabriel Belouze
+      </h1>
       <h2>About</h2>
       <div class="row">
         <div class="col-4">
@@ -95,55 +99,88 @@
       <dl>
         <dt>
           R&D Internship
-          <a href="https://arxiv.org/abs/2209.06302">paper</a>
-          <time datetime="2022-09" class="float-right">April-Sept 2022</time>
+          <small class="float-right">
+            <a href="data/master-thesis.pdf">
+              <i class="las la-file-alt"></i> master thesis
+            </a>
+            •
+            <a href="https://arxiv.org/abs/2209.06302">
+              <i class="las la-file-alt"></i> paper
+            </a>
+            •
+            <time datetime="2022-09">April-Sept 2022</time>
+          </small>
         </dt>
         <dd>
-          Optimisation and Machine Learning at
-          <a href="https://www.lokad.com/fr/accueil">Lokad</a>. Published an
-          article
-          <a href="https://arxiv.org/abs/2209.06302"
-            >Optimization without backpropagation</a
-          >.
+          Worked at <a href="https://www.lokad.com/fr/accueil">Lokad</a> on
+          implementing and benchmarking a backpropagation-free
+          autodifferentiation engine for the
+          <a href="https://docs.lokad.com/language/">Envision</a> programming
+          language. This led me to contribute to the autodifferentiation
+          research field.
         </dd>
         <dt>
           Software Development Internship
-          <time datetime="2021-06" class="float-right">Febr-July 2021</time>
+          <small class="float-right">
+            <a href="https://opam.ocaml.org/packages/cactus/">
+              <i class="las la-code"></i> library
+            </a>
+            •
+            <a href="data/tarides-report.pdf">
+              <i class="las la-file-alt"></i> report
+            </a>
+            •
+            <time datetime="2021-06">Febr-July 2021</time>
+          </small>
         </dt>
         <dd>
           Worked at <a href="https://tarides.com/">Tarides</a> on improving the
           index data structure for
-          <a href="https://github.com/mirage/irmin">Irmin</a>.
+          <a href="https://github.com/mirage/irmin">Irmin</a>. I implemented
+          <code>cactus</code>, a b-tree based OCaml library for persistent
+          key-value storage.
         </dd>
 
         <dt>
           Research Internship
-          <time dtime="2020-05" class="float-right">June-Aug 2020</time>
+          <small class="float-right">
+            <a href="data/m1-master-thesis.pdf">
+              <i class="las la-file-alt"></i> thesis
+            </a>
+            •
+            <time datetime="2020-05">June-Aug 2020</time>
+          </small>
         </dt>
         <dd>
           Worked at <a href="https://www.uni-koeln.de/">Köln Universtät</a> on
-          combinatorics. Read about my work
-          <a href="data/m1-master-thesis.pdf"
-            >On the i.i.d. prophet inequality with a random freeze</a
-          >
+          the prophet inequality with a random freeze (discrete mathematics).
         </dd>
         <dt>
           Research Internship
-          <time dtime="2019-05" class="float-right">June-Aug 2019</time>
+          <small class="float-right">
+            <a href="data/bachelor-thesis.pdf">
+              <i class="las la-file-alt"></i> thesis
+            </a>
+            •
+            <time datetime="2019-05">June-Aug 2019</time>
+          </small>
         </dt>
         <dd>
           Worked at
           <a href="https://www.inria.fr/fr/centre-inria-nancy-grand-est"
             >Inria Nancy</a
           >
-          on Machine Learning techniques applied to Robotics.
+          on applying Monte-Carlo search techniques for self localization of a
+          robot under uncertainty.
         </dd>
       </dl>
       <h2 id="education">Education</h2>
       <dl>
         <dt>
           ENS Master of Computer Science
-          <time datetime="2023-06" class="float-right">2018-2023</time>
+          <small class="float-right">
+            <time datetime="2023-06">2018-2023</time>
+          </small>
         </dt>
         <dd>
           Computer Science Major at
@@ -153,7 +190,9 @@
 
         <dt>
           MVA Master
-          <time class="float-right">2021-2022</time>
+          <small class="float-right">
+            <time datetime="2021-09">2021-2022</time>
+          </small>
         </dt>
         <dd>
           Master of Mathematics, Machine Learning and Computer Vision of
@@ -162,8 +201,10 @@
         </dd>
 
         <dt>
-          <time datetime="2016-09" class="float-right">2016-2018</time> Classes
-          préparatoires
+          <small class="float-right">
+            <time datetime="2016-09">2016-2018</time>
+          </small>
+          Classes préparatoires
         </dt>
         <dd>
           French 2-year cycle of intense preparation for national exams. Maths,
