@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 🧑🏼‍🎓 Master student at [ENS Paris](https://www.ens.psl.eu/en) and [MVA](https://www.master-mva.com/)
+- 🧑🏼‍🎓 Graduated from [ENS Paris](https://www.ens.psl.eu/en) and [MVA](https://www.master-mva.com/)
 - 📈 Interested in machine Learning and applied mathematics
 - 📷 Interested in computer vision
 -  **λ** &nbsp; &nbsp;Interested in functional programming
